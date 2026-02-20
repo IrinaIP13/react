@@ -1,10 +1,13 @@
 import './App.css'
 
-function App() {
+import {CoursesComponent} from "./components/courses-component/CoursesComponent.tsx";
 
-  return (
-    <></>
-  )
-}
+const App = () => {
+    return (
+        <>
+            <CoursesComponent/>
+        </>
+    );
+};
 
-export default App
+export default App;
