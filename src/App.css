@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+li {
+    font-size: 26px;
+    color: coral;
+    margin: 30px;
+}
