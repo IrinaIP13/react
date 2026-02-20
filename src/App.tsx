@@ -1,10 +1,13 @@
 import './App.css'
+import {CoursesArray} from "./components/courses-array/CoursesArray.tsx";
 
 function App() {
 
-  return (
-    <></>
-  )
+    return (
+        <>
+            <CoursesArray/>
+        </>
+    )
 }
 
 export default App
